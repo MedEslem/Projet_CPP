@@ -33,14 +33,17 @@ public:
     QString getConge(){return CONGE;}
    QString getCIN(){return CIN;}
    QString getNumT(){return NUM_TELEPHONE;}
+   //setters
+   void setcin(QString);
+   void setnom(QString);
    //Fonctionssss
    bool ajouter();
    QSqlQueryModel * afficher();
    bool supprimerC(QString);
    bool supprimerT(QString);
    bool modifier();
-   QSqlQueryModel * rechercherC(QString);
-    QSqlQueryModel * rechercherT(QString);
+   QSqlQueryModel * rechercherC(const QString &);
+    QSqlQueryModel * rechercherT(const QString &);
    QSqlQueryModel * trierN();
    QSqlQueryModel * trierCIN();
    QSqlQueryModel * trierConge();

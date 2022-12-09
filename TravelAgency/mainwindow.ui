@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1127</width>
-    <height>600</height>
+    <width>1224</width>
+    <height>663</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,21 +27,21 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1131</width>
-      <height>581</height>
+      <width>1201</width>
+      <height>651</height>
      </rect>
     </property>
     <property name="currentIndex">
      <number>0</number>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="tab_7">
      <attribute name="title">
       <string>CRUD</string>
      </attribute>
-     <widget class="QGroupBox" name="groupBox">
+     <widget class="QGroupBox" name="groupBox_4">
       <property name="geometry">
        <rect>
-        <x>60</x>
+        <x>20</x>
         <y>10</y>
         <width>521</width>
         <height>351</height>
@@ -50,7 +50,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
       <property name="title">
        <string>Employe</string>
       </property>
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="label_49">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -63,7 +63,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>CIN</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="label_50">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -76,7 +76,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Nom</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="label_51">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -89,7 +89,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Prenom</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="label_52">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -102,7 +102,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Num Telephone</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_5">
+      <widget class="QLabel" name="label_53">
        <property name="geometry">
         <rect>
          <x>40</x>
@@ -115,7 +115,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Conge</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_6">
+      <widget class="QLabel" name="label_54">
        <property name="geometry">
         <rect>
          <x>280</x>
@@ -128,7 +128,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Role</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_7">
+      <widget class="QLabel" name="label_55">
        <property name="geometry">
         <rect>
          <x>280</x>
@@ -141,7 +141,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Diplome</string>
        </property>
       </widget>
-      <widget class="QLabel" name="label_8">
+      <widget class="QLabel" name="label_56">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -154,7 +154,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Date de naissance</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_cin">
+      <widget class="QLineEdit" name="lineEdit_cin_4">
        <property name="geometry">
         <rect>
          <x>80</x>
@@ -164,7 +164,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_nom">
+      <widget class="QLineEdit" name="lineEdit_nom_4">
        <property name="geometry">
         <rect>
          <x>80</x>
@@ -174,7 +174,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_prenom">
+      <widget class="QLineEdit" name="lineEdit_prenom_4">
        <property name="geometry">
         <rect>
          <x>80</x>
@@ -184,7 +184,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_tel">
+      <widget class="QLineEdit" name="lineEdit_tel_4">
        <property name="geometry">
         <rect>
          <x>130</x>
@@ -194,7 +194,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_daten">
+      <widget class="QLineEdit" name="lineEdit_daten_4">
        <property name="geometry">
         <rect>
          <x>140</x>
@@ -204,7 +204,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QComboBox" name="comboBox_diplome">
+      <widget class="QComboBox" name="comboBox_diplome_4">
        <property name="geometry">
         <rect>
          <x>370</x>
@@ -234,7 +234,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </property>
        </item>
       </widget>
-      <widget class="QComboBox" name="comboBox_role">
+      <widget class="QComboBox" name="comboBox_role_4">
        <property name="geometry">
         <rect>
          <x>370</x>
@@ -264,7 +264,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </property>
        </item>
       </widget>
-      <widget class="QLineEdit" name="lineEdit_conge">
+      <widget class="QLineEdit" name="lineEdit_conge_4">
        <property name="geometry">
         <rect>
          <x>110</x>
@@ -274,7 +274,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </rect>
        </property>
       </widget>
-      <widget class="QLabel" name="label_9">
+      <widget class="QLabel" name="label_57">
        <property name="geometry">
         <rect>
          <x>280</x>
@@ -287,7 +287,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Duree de travail</string>
        </property>
       </widget>
-      <widget class="QComboBox" name="comboBox_duree">
+      <widget class="QComboBox" name="comboBox_duree_4">
        <property name="geometry">
         <rect>
          <x>400</x>
@@ -322,7 +322,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         </property>
        </item>
       </widget>
-      <widget class="QPushButton" name="pushButton_ajouter">
+      <widget class="QPushButton" name="pushButton_ajouter_4">
        <property name="geometry">
         <rect>
          <x>300</x>
@@ -335,7 +335,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
         <string>Ajouter</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_modifier">
+      <widget class="QPushButton" name="pushButton_modifier_4">
        <property name="geometry">
         <rect>
          <x>400</x>
@@ -349,17 +349,17 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        </property>
       </widget>
      </widget>
-     <widget class="QTableView" name="tableView">
+     <widget class="QTableView" name="tableView_4">
       <property name="geometry">
        <rect>
-        <x>580</x>
-        <y>11</y>
+        <x>550</x>
+        <y>10</y>
         <width>541</width>
         <height>351</height>
        </rect>
       </property>
      </widget>
-     <widget class="QPushButton" name="Rechercher">
+     <widget class="QPushButton" name="Rechercher_4">
       <property name="geometry">
        <rect>
         <x>220</x>
@@ -372,7 +372,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Rechercher</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_supprimer">
+     <widget class="QPushButton" name="pushButton_supprimer_4">
       <property name="geometry">
        <rect>
         <x>320</x>
@@ -385,12 +385,12 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Supprimer</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_p">
+     <widget class="QComboBox" name="comboBox_p_4">
       <property name="geometry">
        <rect>
-        <x>220</x>
+        <x>181</x>
         <y>400</y>
-        <width>62</width>
+        <width>101</width>
         <height>21</height>
        </rect>
       </property>
@@ -405,27 +405,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        </property>
       </item>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_cins">
-      <property name="geometry">
-       <rect>
-        <x>310</x>
-        <y>400</y>
-        <width>113</width>
-        <height>20</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QTableView" name="tableView_r">
-      <property name="geometry">
-       <rect>
-        <x>450</x>
-        <y>371</y>
-        <width>541</width>
-        <height>161</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_Trier">
+     <widget class="QPushButton" name="pushButton_Trier_4">
       <property name="geometry">
        <rect>
         <x>1020</x>
@@ -438,7 +418,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Trier</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="comboBox_trie">
+     <widget class="QComboBox" name="comboBox_trie_4">
       <property name="geometry">
        <rect>
         <x>1030</x>
@@ -463,7 +443,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        </property>
       </item>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
         <x>1020</x>
@@ -476,12 +456,58 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>PDF</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>390</y>
+        <width>47</width>
+        <height>14</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_cins_4">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>400</y>
+        <width>131</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_r_4">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>380</y>
+        <width>491</width>
+        <height>141</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="stat">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>500</y>
+        <width>75</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stat</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="tab_2">
+    <widget class="QWidget" name="tab_8">
      <attribute name="title">
       <string>QUIZ</string>
      </attribute>
-     <widget class="QLabel" name="label_10">
+     <widget class="QLabel" name="label_59">
       <property name="geometry">
        <rect>
         <x>400</x>
@@ -497,7 +523,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>QUIZ</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_11">
+     <widget class="QLabel" name="label_60">
       <property name="geometry">
        <rect>
         <x>90</x>
@@ -510,7 +536,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Question 1</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_12">
+     <widget class="QLabel" name="label_61">
       <property name="geometry">
        <rect>
         <x>520</x>
@@ -523,7 +549,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Question 5</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_13">
+     <widget class="QLabel" name="label_62">
       <property name="geometry">
        <rect>
         <x>90</x>
@@ -536,7 +562,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Question 3</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_15">
+     <widget class="QLabel" name="label_63">
       <property name="geometry">
        <rect>
         <x>500</x>
@@ -549,7 +575,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Question 4</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_16">
+     <widget class="QLabel" name="label_64">
       <property name="geometry">
        <rect>
         <x>90</x>
@@ -562,202 +588,7 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Question 2</string>
       </property>
      </widget>
-     <widget class="QRadioButton" name="radioButton">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 1</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_2">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 2</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_3">
-      <property name="geometry">
-       <rect>
-        <x>240</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 3</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_4">
-      <property name="geometry">
-       <rect>
-        <x>440</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 1</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_5">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>400</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 1</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_6">
-      <property name="geometry">
-       <rect>
-        <x>20</x>
-        <y>290</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 1</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_7">
-      <property name="geometry">
-       <rect>
-        <x>500</x>
-        <y>320</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 2</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_8">
-      <property name="geometry">
-       <rect>
-        <x>550</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 2</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_9">
-      <property name="geometry">
-       <rect>
-        <x>130</x>
-        <y>400</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 2</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_10">
-      <property name="geometry">
-       <rect>
-        <x>140</x>
-        <y>290</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 2</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_12">
-      <property name="geometry">
-       <rect>
-        <x>390</x>
-        <y>320</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 1</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_11">
-      <property name="geometry">
-       <rect>
-        <x>610</x>
-        <y>320</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 3</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_13">
-      <property name="geometry">
-       <rect>
-        <x>650</x>
-        <y>190</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 3</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_14">
-      <property name="geometry">
-       <rect>
-        <x>240</x>
-        <y>400</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 3</string>
-      </property>
-     </widget>
-     <widget class="QRadioButton" name="radioButton_15">
-      <property name="geometry">
-       <rect>
-        <x>260</x>
-        <y>290</y>
-        <width>83</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Reponse 3</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButton_valider">
+     <widget class="QPushButton" name="pushButton_valider_4">
       <property name="geometry">
        <rect>
         <x>630</x>
@@ -770,8 +601,213 @@ background: QLinearGradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgba(72, 145, 21
        <string>Valider</string>
       </property>
      </widget>
+     <widget class="QCheckBox" name="Q1R1">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 1</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q1R2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 2</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q1R3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 3</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q5R1">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>310</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 1</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q4R1">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 1</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q3R1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>400</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 1</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q2R1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>290</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 1</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q4R2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 2</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q3R2">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>400</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 2</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_10">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>310</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 2</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q2R2">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>290</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 2</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_12">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>310</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 3</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q4R3">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>180</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 3</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q3R3">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>400</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 3</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="Q2R3">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>290</y>
+        <width>91</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Réponse 3</string>
+      </property>
+     </widget>
     </widget>
    </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1224</width>
+     <height>24</height>
+    </rect>
+   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

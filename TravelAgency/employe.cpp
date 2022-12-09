@@ -2,6 +2,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "connection.h"
+#include "arduino.h"
+
 Employe::Employe(QString CIN,QString NOM,QString PRENOM,QString ROLE,QString DIPLOME,QString DUREE_DE_TRAVAIL,QString DATE_DE_NAISSANCE,QString CONGE,QString NUM_TELEPHONE)
 {this->CIN=CIN;
   this->NOM=NOM;
@@ -33,19 +35,20 @@ query.bindValue(":CONGE",CONGE);
 return query.exec();
 
 
+
 }
 bool Employe::supprimerC(QString cin)
 {QSqlQuery query;
     //QString res=QString::number(cin);
     query.prepare("Delete from employe where CIN= :cin");
-    query.bindValue(":cin",cin);
+    query.bindValue(0,cin);
     return  query.exec();
 }
 bool Employe::supprimerT(QString tel)
 {QSqlQuery query;
     //QString res=QString::number(cin);
-    query.prepare("Delete from employe where NUM_TELEPHONE= :tel");
-    query.bindValue(":NUM_TELEPHONE",tel);
+    query.prepare("Delete from employe where num_telephone= :tel");
+    query.bindValue(0,tel);
     return  query.exec();
 }
 
@@ -81,10 +84,9 @@ bool Employe::modifier()
 }
 
 
-QSqlQueryModel *Employe::rechercherC(QString cin)
-{QSqlQuery query;
-   QSqlQueryModel * model=new QSqlQueryModel();
-    query.prepare("Select from employe where (CIN like '%"+cin+"%') ");
+QSqlQueryModel *Employe::rechercherC(const QString &cin)
+{QSqlQueryModel * model= new QSqlQueryModel();
+    model->setQuery("select * from employe where (cin LIKE '"+cin+"%')");
     model->setHeaderData(0,Qt::Horizontal,QObject::tr("CIN"));
     model->setHeaderData(1,Qt::Horizontal,QObject::tr("NOM"));
     model->setHeaderData(2,Qt::Horizontal,QObject::tr("PRENOM"));
@@ -96,13 +98,11 @@ QSqlQueryModel *Employe::rechercherC(QString cin)
     model->setHeaderData(8,Qt::Horizontal,QObject::tr("CONGE"));
 
     return model;
-
 
 }
-QSqlQueryModel *Employe::rechercherT(QString tel)
-{QSqlQuery query;
-   QSqlQueryModel * model=new QSqlQueryModel();
-    query.prepare("Select from employe where (NUM_TELEPHONE like '%"+tel+"%') ");
+QSqlQueryModel *Employe::rechercherT(const QString &tel)
+{QSqlQueryModel * model= new QSqlQueryModel();
+    model->setQuery("select * from employe where (num_telephone LIKE '"+tel+"%')");
     model->setHeaderData(0,Qt::Horizontal,QObject::tr("CIN"));
     model->setHeaderData(1,Qt::Horizontal,QObject::tr("NOM"));
     model->setHeaderData(2,Qt::Horizontal,QObject::tr("PRENOM"));
@@ -114,7 +114,6 @@ QSqlQueryModel *Employe::rechercherT(QString tel)
     model->setHeaderData(8,Qt::Horizontal,QObject::tr("CONGE"));
 
     return model;
-
 
 }
 //trie alphabetique
@@ -135,4 +134,12 @@ QSqlQueryModel *Employe::trierConge()
  model->setQuery("SELECT * FROM employe order by CONGE asc");
 
   return model;
+}
+void Employe::setcin(QString R)
+{
+    CIN=R;
+}
+void Employe::setnom(QString R)
+{
+    NOM=R;
 }

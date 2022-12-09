@@ -14,7 +14,8 @@
 #include <QFile>
 #include <QDataStream>
 #include "arduino.h"
-
+#include "dialog_stats.h"
+#include "ui_dialog_stats.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -28,28 +29,33 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_ajouter_clicked();
+void update_label();
+    void on_pushButton_ajouter_4_clicked();
 
-    void on_pushButton_supprimer_clicked();
+    void on_pushButton_supprimer_4_clicked();
 
-    void on_pushButton_modifier_clicked();
+    void on_pushButton_modifier_4_clicked();
 
 
-    void on_Rechercher_clicked();
+    void on_Rechercher_4_clicked();
 
-    void on_pushButton_Trier_clicked();
+    void on_pushButton_Trier_4_clicked();
 
-    void on_pdf_clicked();
+   // void on_pdf_clicked();
 
-    void on_pushButton_valider_clicked();
+    void on_pushButton_valider_4_clicked();
 
-    void on_pushButton_clicked();
+    void on_pushButton_4_clicked();
+
+    void on_stat_clicked();
 
 private:
     Ui::MainWindow *ui;
     QByteArray data;
-    //Arduino A;
     Employe Etmp;
+    Arduino A;
+    Dialog_stats *s;
+
 };
 #endif // MAINWINDOW_H
 

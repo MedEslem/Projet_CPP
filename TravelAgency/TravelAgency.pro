@@ -2,6 +2,7 @@ QT       += core gui
 QT       +=sql
 QT       +=serialport
 QT       +=core gui sql network multimedia multimediawidgets charts printsupport widgets axcontainer
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -20,21 +21,44 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     arduino.cpp \
     connection.cpp \
+    dialog_stats.cpp \
     employe.cpp \
+    exportexcelobject.cpp \
     login.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    res.cpp \
+    reservation.cpp \
+    smtp.cpp \
+    spons.cpp \
+    sponsor.cpp \
+    trans.cpp \
+    transport.cpp
 
 HEADERS += \
+    WebAxWidget.h \
     arduino.h \
     connection.h \
+    dialog_stats.h \
     employe.h \
+    exportexcelobject.h \
     login.h \
-    mainwindow.h
+    mainwindow.h \
+    res.h \
+    reservation.h \
+    smtp.h \
+    spons.h \
+    sponsor.h \
+    trans.h \
+    transport.h
 
 FORMS += \
+    dialog_stats.ui \
     login.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    res.ui \
+    spons.ui \
+    trans.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
